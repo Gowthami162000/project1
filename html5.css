@@ -1,0 +1,19 @@
+.box1 {
+    background-color: blue;
+    color: aqua;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: brown;
+    color: coral;
+    padding: 10px;
+}
+
+@media  screen and (min-width :500px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+    

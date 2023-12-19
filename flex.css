@@ -1,0 +1,41 @@
+.parent {
+    background-color: aquamarine;
+    width: 800px;
+    height: 600px;
+    padding: 10px;
+    border: 10px solid coral;
+
+    /* flex */
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: start; */
+}
+
+.container1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    /* border-radius: 10px;
+    padding: 10px;
+    margin-top: 400px; */
+    flex-grow: 1;
+
+}
+
+.container2 {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    /* margin-top: 20px; */
+}
+
+.container3 {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+}
